@@ -10,6 +10,13 @@ Sistema desenvolvido para a Semana OmniStack 10.0
 - `yarn add nodemon -D` ou `npm install nodemon -D`: adiciona a dependência de desenvolvimento do *nodemon*.
 - `yarn add mongoose` ou `npm install mongoose`: adiciona a dependência *mongoose*.
 - `yarn add axios` ou `npm install axios`: adiciona a dependência *axios*.
+- `yarn add cors`: habilita o acesso externo.
+
+### Frontend (web):
+
+- `yarn create react-app web` ou `npx create react-app web`: cria um novo projeto ReactJS com o nome *web*.
+- `yarn start` ou `npm run start`: inicializa o projeto React em modo desenvolvimento.
+- `yarn add axios` ou `npm install axios`: adiciona a dependência *axios*.
 
 ## Commands
 

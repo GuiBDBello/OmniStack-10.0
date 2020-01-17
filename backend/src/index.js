@@ -1,5 +1,6 @@
 const express = require('express'); // Importa a dependência do express
 const mongoose = require('mongoose'); // Importa a dependência do mongoDB
+const cors = require('cors');
 const routes = require('./routes');
 
 const app = express(); // Cria a aplicação
@@ -9,6 +10,9 @@ mongoose.connect('mongodb+srv://omnistack:omnistack@omnistack-10-qkjut.mongodb.n
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
+
+app.use(cors({ origin: 'http://localhost:3000' }));
+// app.use(cors()); // Habilita o acesso extereno para todo tipo de aplicação
 
 app.use(express.json()); // Define uma configuração que será válida para todas as rotas da aplicação
 
