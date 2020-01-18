@@ -1,9 +1,14 @@
 const express = require('express'); // Importa a dependência do express
 const mongoose = require('mongoose'); // Importa a dependência do mongoDB
 const cors = require('cors');
+const http = require('http');
 const routes = require('./routes');
+const { setupWebSocket } = require('./websocket');
 
 const app = express(); // Cria a aplicação
+const server = http.Server(app);
+
+setupWebSocket(server);
 
 // Conecta no banco de dados mongoDB
 mongoose.connect('mongodb+srv://omnistack:omnistack@omnistack-10-qkjut.mongodb.net/test?retryWrites=true&w=majority', {
@@ -30,4 +35,4 @@ app.use(express.json()); // Define uma configuração que será válida para tod
 // });
 app.use(routes);
 
-app.listen(3333); // Inicia a aplicação na porta definida
+server.listen(3333); // Inicia a aplicação na porta definida

@@ -11,6 +11,7 @@ Sistema desenvolvido para a Semana OmniStack 10.0
 - `yarn add mongoose` ou `npm install mongoose`: adiciona a dependência *mongoose*.
 - `yarn add axios` ou `npm install axios`: adiciona a dependência *axios*.
 - `yarn add cors`: habilita o acesso externo.
+- `yarn add socket.io`: adiciona a dependência *socket.io*.
 
 ### Frontend (web):
 
@@ -31,6 +32,7 @@ Sistema desenvolvido para a Semana OmniStack 10.0
 - `expo install expo-location`: adiciona a dependência *expo-location*;
 - `expo install react-native-webview`: adiciona a dependência *react-native-webview*.
 - `yarn add axios`: adiciona a dependência *axios*.
+- `yarn add socket.io-client`: adiciona a dependência *socket.io-client*.
 
 ## Commands
 
