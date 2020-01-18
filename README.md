@@ -15,8 +15,22 @@ Sistema desenvolvido para a Semana OmniStack 10.0
 ### Frontend (web):
 
 - `yarn create react-app web` ou `npx create react-app web`: cria um novo projeto ReactJS com o nome *web*.
-- `yarn start` ou `npm run start`: inicializa o projeto React em modo desenvolvimento.
+- `yarn start` ou `npm start`: inicializa o projeto React em modo de desenvolvimento.
 - `yarn add axios` ou `npm install axios`: adiciona a dependência *axios*.
+
+### Mobile:
+
+- `yarn global add expo-cli` ou `npm install -g expo-cli`: instala o expo.
+- `expo init mobile`: cria um novo projeto React Native com o nome *mobile*.
+- `yarn start` ou `npm start`: inicia o projeto React Native em modo de desenvolvimento.
+- `yarn add react-navigation` ou `npm install react-navigation`: adiciona a dependência *react-navigation*.
+- `expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context`: comando utilizado para baixar dependências do React Navigation.
+- `yarn add react-navigation-stack` ou `npm install react-navigation-stack`: adiciona a dependência *react-navigation-stack*.
+- `yarn add @react-native-community/masked-view` ou `npm install @react-native-community/masked-view`: necessário instalar para utilizar o *react-navigation-stack*.
+- `expo install react-native-maps`: adiciona a dependência *react-native-maps*.
+- `expo install expo-location`: adiciona a dependência *expo-location*;
+- `expo install react-native-webview`: adiciona a dependência *react-native-webview*.
+- `yarn add axios`: adiciona a dependência *axios*.
 
 ## Commands
 
