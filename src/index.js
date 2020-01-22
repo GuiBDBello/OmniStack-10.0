@@ -35,4 +35,4 @@ app.use(express.json()); // Define uma configuração que será válida para tod
 // });
 app.use(routes);
 
-server.listen(3333); // Inicia a aplicação na porta definida
+server.listen(process.env.PORT || 3333); // Inicia a aplicação na porta definida
