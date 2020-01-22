@@ -1,76 +1,68 @@
-# OmniStack-10.0
-Sistema desenvolvido para a Semana OmniStack 10.0
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Dependencies
+## Available Scripts
 
-### Backend:
+In the project directory, you can run:
 
-- `yarn init -y` ou `npm init -y`: cria o arquivo `package.json`, indicando que o diretório atual é um projeto JavaScript. O arquivo contém diversas informações do projeto, e também indica as dependências do projeto.
-- `yarn add express` ou `npm install express`: adiciona a dependência do *express*.
-- `yarn add nodemon -D` ou `npm install nodemon -D`: adiciona a dependência de desenvolvimento do *nodemon*.
-- `yarn add mongoose` ou `npm install mongoose`: adiciona a dependência *mongoose*.
-- `yarn add axios` ou `npm install axios`: adiciona a dependência *axios*.
-- `yarn add cors`: habilita o acesso externo.
-- `yarn add socket.io`: adiciona a dependência *socket.io*.
+### `yarn start`
 
-### Frontend (web):
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- `yarn create react-app web` ou `npx create react-app web`: cria um novo projeto ReactJS com o nome *web*.
-- `yarn start` ou `npm start`: inicializa o projeto React em modo de desenvolvimento.
-- `yarn add axios` ou `npm install axios`: adiciona a dependência *axios*.
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-### Mobile:
+### `yarn test`
 
-- `yarn global add expo-cli` ou `npm install -g expo-cli`: instala o expo.
-- `expo init mobile`: cria um novo projeto React Native com o nome *mobile*.
-- `yarn start` ou `npm start`: inicia o projeto React Native em modo de desenvolvimento.
-- `yarn add react-navigation` ou `npm install react-navigation`: adiciona a dependência *react-navigation*.
-- `expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context`: comando utilizado para baixar dependências do React Navigation.
-- `yarn add react-navigation-stack` ou `npm install react-navigation-stack`: adiciona a dependência *react-navigation-stack*.
-- `yarn add @react-native-community/masked-view` ou `npm install @react-native-community/masked-view`: necessário instalar para utilizar o *react-navigation-stack*.
-- `expo install react-native-maps`: adiciona a dependência *react-native-maps*.
-- `expo install expo-location`: adiciona a dependência *expo-location*;
-- `expo install react-native-webview`: adiciona a dependência *react-native-webview*.
-- `yarn add axios`: adiciona a dependência *axios*.
-- `yarn add socket.io-client`: adiciona a dependência *socket.io-client*.
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Commands
+### `yarn build`
 
-### Terminal:
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- `code .`: abre o VS Code no diretório atual.
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-## Shortcuts
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Visual Studio Code:
+### `yarn eject`
 
-- `Ctrl + Shift + P`: abre a "Palete de comandos".
-- `Ctrl + '`: abre o Terminal integrado.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## Others
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### MongoDB Atlas:
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-- Acesse http://mongodb.com/cloud/atlas
-- Crie um usuário/Faça login.
-- Clique em `Build a Cluster`.
-- Selecione *Starter Cluster*.
-- Vá em *SECURITY* > *Database Access* e clique em `+ ADD NEW USER`.
-- Adicione um usuário e senha com permissão *Read and write to any database*.
-- Vá em *SECURITY* > *Network Access* e clique em `+ ADD IP ADDRESS`.
-- Para possibilitar o acesso ao banco em ambiente de desenvolvimento, clique em `ALLOW ACCESS FROM ANYWHERE`.
-- Vá em *ATLAS* > *Clusters* e clique em `CONNECT`.
-- Selecione *Connect Your Application*.
-- Em *DRIVER*, selecione `Node.js`. Em *VERSION*, selecione `3.0 or later`.
-- Selecione e copie o texto de *Connection String Only*.
-- Adicione a dependência `mongoose`.
-- Após importar o *mongoose* em sua aplicação, utilize `mongoose.connect('connectionString')` para conectar ao banco.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### MongoDB Compass:
+## Learn More
 
-- Faça o download do MongoDB Compass Community em https://www.mongodb.com/download-center/compass
-- No site do MongoDB Atlas, vá em *ATLAS* > *Clusters* e clique em `CONNECT`.
-- Selecione *Connect with MongoDB Compass*.
-- Copie a string de conexão.
-- Abra o MongoDB Compass e automaticamente será detectada a conexão.
-- Verifique os dados (senha, banco de dados) e clique em `CONNECT`.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
