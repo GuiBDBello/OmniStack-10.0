@@ -16,7 +16,7 @@ mongoose.connect('mongodb+srv://omnistack:omnistack@omnistack-10-qkjut.mongodb.n
     useUnifiedTopology: true
 });
 
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors());
 // app.use(cors()); // Habilita o acesso extereno para todo tipo de aplicação
 
 app.use(express.json()); // Define uma configuração que será válida para todas as rotas da aplicação
