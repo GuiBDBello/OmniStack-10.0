@@ -13,6 +13,10 @@ Sistema desenvolvido para a Semana OmniStack 10.0
 - `yarn add cors`: habilita o acesso externo.
 - `yarn add socket.io`: adiciona a dependência *socket.io*.
 
+#### Live demo:
+
+- https://omnistack-10-dev-radar-backend.herokuapp.com
+
 ### Frontend (web):
 
 - `yarn create react-app web` ou `npx create react-app web`: cria um novo projeto ReactJS com o nome *web*.
