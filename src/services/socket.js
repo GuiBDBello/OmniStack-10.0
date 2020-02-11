@@ -1,6 +1,6 @@
 import socketio from 'socket.io-client';
 
-const socket = socketio('http://192.168.0.104:3333', {
+const socket = socketio("https://omnistack-10-dev-radar-backend.herokuapp.com", {
     autoConnect: false,
 });
 

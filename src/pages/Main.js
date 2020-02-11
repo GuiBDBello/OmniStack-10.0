@@ -54,13 +54,19 @@ function Main({ navigation }) {
     async function loadDevs() {
         const { latitude, longitude } = currentRegion;
 
+        console.log(latitude, longitude, techs);
+        console.log(api.defaults.baseURL);
+
         const response = await api.get('/search', {
             params: {
-                latitude,
-                longitude,
-                techs,
+                latitude: latitude,
+                longitude: longitude,
+                techs: techs,
             },
         });
+
+        console.log("Request returned with response:");
+        console.log(response);
 
         setDevs(response.data.devs);
         setupWebsocket();
