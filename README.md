@@ -23,6 +23,10 @@ Sistema desenvolvido para a Semana OmniStack 10.0
 - `yarn start` ou `npm start`: inicializa o projeto React em modo de desenvolvimento.
 - `yarn add axios` ou `npm install axios`: adiciona a dependência *axios*.
 
+#### Live demo:
+
+- https://omnistack-10-dev-radar.herokuapp.com
+
 ### Mobile:
 
 - `yarn global add expo-cli` ou `npm install -g expo-cli`: instala o expo.
