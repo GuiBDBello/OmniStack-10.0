@@ -26,11 +26,16 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.yellowsnakestudio.devradar",
-      "buildNumber": "1.0.1"
+      "buildNumber": "1.0.3"
     },
     "android": {
       "package": "com.yellowsnakestudio.devradar",
-      "versionCode": 2
+      "versionCode": 4,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBJaBvdkOLrEMh1vWeXH-zb0sZIB1YR5Og"
+        }
+      }
     },
     "description": ""
   }
