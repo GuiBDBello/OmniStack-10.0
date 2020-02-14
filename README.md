@@ -42,6 +42,10 @@ Sistema desenvolvido para a Semana OmniStack 10.0
 - `yarn add axios`: adiciona a dependência *axios*.
 - `yarn add socket.io-client`: adiciona a dependência *socket.io-client*.
 
+#### Download:
+
+- https://play.google.com/store/apps/details?id=com.yellowsnakestudio.devradar
+
 ## Commands
 
 ### Terminal:
